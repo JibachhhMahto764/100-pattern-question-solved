@@ -7,10 +7,10 @@ public class Triangle{
       return;
     }
     if (c<r){
-      system.out.print("*");
+      System.out.print("*");
       triangle(r,c+1);
     }else{
-      system.out.println();
+      System. out.println();
       triangle(r-1,0);
     }
   }
